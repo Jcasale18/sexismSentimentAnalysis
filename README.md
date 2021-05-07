@@ -5,12 +5,12 @@ Performing a sentiment analysis on tweets from Tweepy API to analyze presence of
 <h4> To run this script, you need an <a href='https://developer.twitter.com/en/docs/twitter-api/getting-started/getting-access-to-the-twitter-api' target="_blank"> API key</a> </h4>
 
 
-```python
-#fill in
-info = {
-'consumer_key' : '',
-'consumer_secret_api_key' : '',
-'access_token' : '',
-'access_token_secret' : '',
-}
+
+#fill in the your_keys.ini file!
+```
+[keys]
+consumer_key = xxxx
+consumer_secret_api_key = xxxx
+access_token = xxxx
+access_token_secret = xxxx
 ```
