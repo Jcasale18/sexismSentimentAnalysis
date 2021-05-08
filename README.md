@@ -6,8 +6,8 @@ Performing a sentiment analysis on tweets from Tweepy API to analyze presence of
 
 
 
-#fill in the your_keys.ini file!
-```
+# fill in the your_keys.ini file!
+```python
 [keys]
 consumer_key = xxxx
 consumer_secret_api_key = xxxx
