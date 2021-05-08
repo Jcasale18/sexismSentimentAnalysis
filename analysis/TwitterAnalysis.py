@@ -176,15 +176,17 @@ class TwitterClient(object):
         print(filename)
         filename = filename.strip()
         category = category.strip()
-        if os.path.exists('data/' + filename + category + '.csv'):
+        dir = os.path.dirname(os.path.realpath(__file__))
+        os.chdir(dir)
+        if os.path.exists('../data/' + filename + category + '.csv'):
             try:
-                data = pd.read_csv('data/' + filename + category + '.csv')
+                data = pd.read_csv('../data/' + filename + category + '.csv')
                 # data = pd.concat(data, ignore_index=True)
                 return data
             except:
-                raise (InvalidDataException(('data/' + filename + category + '.csv file exists but is not valid')))
+                raise (InvalidDataException(('../data/' + filename + category + '.csv file exists but is not valid')))
         else:
-            raise (FileNotFoundError('data/' + filename + category + '.csv does not exist.'))
+            raise (FileNotFoundError('../data/' + filename + category + '.csv does not exist.'))
 
 
 def main():

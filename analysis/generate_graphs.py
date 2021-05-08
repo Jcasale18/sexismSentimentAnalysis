@@ -1,5 +1,4 @@
-import matplotlib
-import matplotlib.pyplot as plt 
+import matplotlib.pyplot as plt
 import TwitterAnalysis
 import numpy as np
 keys=[]
