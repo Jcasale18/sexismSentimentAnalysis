@@ -20,9 +20,8 @@ def make_histo(label, dataarrays):
     plt.hist(dataarrays, bins=np.linspace(-1, 1, 21), alpha=0.5, label=keys)
     plt.legend(keys)
 def main():
-    client = TwitterAnalysis.TwitterClient()
-    labelsm, datam = parse_data(client.load_existing_observation_set("set2", "masculine"))
-    labelsf, dataf = parse_data(client.load_existing_observation_set("set2", "feminine"))
+    labelsm, datam = parse_data(TwitterAnalysis.TwitterClient.load_existing_observation_set("set2", "masculine"))
+    labelsf, dataf = parse_data(TwitterAnalysis.TwitterClient.load_existing_observation_set("set2", "feminine"))
     f_data = [[d[index] for index in range(150 * 5)] for d in dataf]
     m_data = [[d[index] for index in range(150 * 5)] for d in datam]
     aggregate_feminine_data = f_data[2]

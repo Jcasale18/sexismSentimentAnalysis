@@ -104,12 +104,12 @@ class TwitterClient(object):
                         if final > 0:
                             if previous == final:
                                 failed_to_retrieve_unique_tweet += 1
-                                if failed_to_retrieve_unique_tweet > 4:
+                                if failed_to_retrieve_unique_tweet > 8:
                                     print("Unable to get more unique tweets, accepting duplicates now")
                                     filter_duplicates = False
-                                else:
-                                    failed_to_retrieve_unique_tweet = 0
-                            print("Looks like there were some duplicates, {} more to go!".format(final))
+                            else:
+                                failed_to_retrieve_unique_tweet = 0
+                            print("Looks like there were some duplicates, {} , {} prev more to go!".format(final, previous))
                             previous = final
 
 
@@ -165,13 +165,14 @@ class TwitterClient(object):
 
         if filename is not None:
             for frame in self.categories.keys():
-                self.categories[frame].to_csv('data/' + filename.strip() + frame.strip() + '.csv',  # frame is category
+                self.categories[frame].to_csv('data/' + filename.strip() + frame.strip() + '.csv',
                                               columns=['trial', 'Pos.', 'Neu.', 'Neg.', 'Summary'],
                                               index=False)
 
         return self.categories
 
-    def load_existing_observation_set(self, filename, category):
+    @staticmethod
+    def load_existing_observation_set(filename, category):
         print(filename)
         filename = filename.strip()
         category = category.strip()
