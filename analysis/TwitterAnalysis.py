@@ -58,7 +58,7 @@ class TwitterClient(object):
         auth = OAuthHandler(info['consumer_key'], info['consumer_secret_api_key'])
         auth.set_access_token(info['access_token'], info['access_token_secret'])
         print("Success!" + info['consumer_key'])
-        return tweepy.API(auth, wait_on_rate_limit=False)
+        return tweepy.API(auth, wait_on_rate_limit=True)
 
     def __clean_tweet(self, tweetstr):
         tweet = ' '.join(re.sub("(@[A-Za-z0-9]+)|([^0-9A-Za-z \t]) |(\w+:\/\/\S+)", " ", tweetstr).split())
@@ -76,23 +76,42 @@ class TwitterClient(object):
         """
 
         tweets = []
-
+        final = count  # to guarantee we get the proper amount of unique tweets.
+        filter_duplicates = True  # Filters out duplicates
+        previous = 0  # will never be equal to final at start
+        failed_to_retrieve_unique_tweet = 0  # if it fails 3 times in a row to get a unique tweet, we will accept duplicates
         try:
+            print(str(count) + " sampling")
 
-            while count > 0:
-                print(str(count) + " sampling")
+            while final > 0:
                 bat = [tweet for tweet in tweepy.Cursor(
-                    self.api.search, q=query + " -filter:retweets", include_entities=True, leng="en").items(count)]
+                    self.api.search, q=query + " -filter:retweets", include_entities=True, leng="en").items(final)]
                 for tweet in bat:
                     parsed_tweet = dict()
 
                     parsed_tweet['sentiment'] = self.__get_sentiment(tweet)
                     parsed_tweet['tweet'] = tweet.text
-                    tweets.append(parsed_tweet)
 
-                # to guarantee unique tweets. len(list) time complexity is apparently constant.
-                count = count - len(tweets)
-                print(count)
+                    # Depending on popularity of search, duplicates may be impossible to avoid.
+                    if parsed_tweet not in tweets or not filter_duplicates:  #if filter is not on, add it anyways
+                        final -= 1
+                        tweets.append(parsed_tweet)
+
+                    if final == 0:
+                        break
+
+                    if filter_duplicates:
+                        if final > 0:
+                            if previous == final:
+                                failed_to_retrieve_unique_tweet += 1
+                                if failed_to_retrieve_unique_tweet > 2:
+                                    print("Unable to get more unique tweets, accepting duplicates now")
+                                    filter_duplicates = False
+                            else:
+                                failed_to_retrieve_unique_tweet = 0
+                            print("Looks like there were some duplicates, {} more to go!".format(final))
+                            previous = final
+
 
 
         except tweepy.TweepError as e:
@@ -170,8 +189,8 @@ class TwitterClient(object):
 def main():
     client = TwitterClient()
 
-    client.analyze_keywords(200, filename="set2",
-                            masculine=['Sergey Brin', 'Bill Gates', 'Adam Steltzner', 'Michiu kaku', 'Neil deGrasse Tyson'],
+    client.analyze_keywords(150, filename="set2",
+                            masculine=['Sergey Brin', 'Bill Gates', 'Adam Steltzner', 'Michio Kaku', 'Neil deGrasse Tyson'],
                             feminine=['Susan Kare', 'Melinda Gates', 'Diana Trujillo', 'Mae Jemison', 'Grace Hopper'])
     data = client.load_existing_observation_set("set2", 'masculine')
     data2 = client.load_existing_observation_set("set2", 'feminine')

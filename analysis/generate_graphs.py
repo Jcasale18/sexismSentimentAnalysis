@@ -23,8 +23,8 @@ def main():
     client = TwitterAnalysis.TwitterClient()
     labelsm, datam = parse_data(client.load_existing_observation_set("set2", "masculine"))
     labelsf, dataf = parse_data(client.load_existing_observation_set("set2", "feminine"))
-    f_data = [[d[index] for index in range(1000)] for d in dataf]
-    m_data = [[d[index] for index in range(1000)] for d in datam]
+    f_data = [[d[index] for index in range(150 * 5)] for d in dataf]
+    m_data = [[d[index] for index in range(150 * 5)] for d in datam]
     aggregate_feminine_data = f_data[2]
     aggregate_masculine_data = m_data[2]
     print(len(aggregate_masculine_data))
