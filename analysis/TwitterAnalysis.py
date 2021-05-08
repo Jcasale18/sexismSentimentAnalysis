@@ -79,7 +79,7 @@ class TwitterClient(object):
         final = count  # to guarantee we get the proper amount of unique tweets.
         filter_duplicates = True  # Filters out duplicates
         previous = 0  # will never be equal to final at start
-        failed_to_retrieve_unique_tweet = 0  # if it fails 3 times in a row to get a unique tweet, we will accept duplicates
+        failed_to_retrieve_unique_tweet = 0  # if it fails to get a unique tweet 5 times, we will accept duplicates
         try:
             print(str(count) + " sampling")
 
@@ -93,22 +93,22 @@ class TwitterClient(object):
                     parsed_tweet['tweet'] = tweet.text
 
                     # Depending on popularity of search, duplicates may be impossible to avoid.
-                    if parsed_tweet not in tweets or not filter_duplicates:  #if filter is not on, add it anyways
+                    if parsed_tweet not in tweets or not filter_duplicates:  # if filter is not on, add it anyways
                         final -= 1
                         tweets.append(parsed_tweet)
-
                     if final == 0:
                         break
 
+                    # A little bit ugly, but helps improve tweet unique-ness.
                     if filter_duplicates:
                         if final > 0:
                             if previous == final:
                                 failed_to_retrieve_unique_tweet += 1
-                                if failed_to_retrieve_unique_tweet > 2:
+                                if failed_to_retrieve_unique_tweet > 4:
                                     print("Unable to get more unique tweets, accepting duplicates now")
                                     filter_duplicates = False
-                            else:
-                                failed_to_retrieve_unique_tweet = 0
+                                else:
+                                    failed_to_retrieve_unique_tweet = 0
                             print("Looks like there were some duplicates, {} more to go!".format(final))
                             previous = final
 
