@@ -26,6 +26,16 @@ def remove_bloated_range(datasets, min_for_removal, max_for_removal):
     return datasets
 
 
+def remove_duplicates(datasets):
+    """
+    Removes duplicates in an list of lists, will return a ragged list.
+    Not ideal for applications where duplicates can come from different sources and are meaningful.
+    """
+    for i in range(len(datasets)):
+        datasets[i] = list(set(datasets[i]))
+    return datasets
+
+
 def normalize_size(datasets):
     """
     This function will take a list of datasets, and convert them all to the size

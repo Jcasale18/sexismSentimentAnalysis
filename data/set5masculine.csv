@@ -1,0 +1,537 @@
+trial,Pos.,Neu.,Neg.,Summary
+Sergey Brin T1,0.375,0.625,0.0,0.8122
+Sergey Brin T2,0.235,0.677,0.088,0.5719
+Sergey Brin T3,0.172,0.828,0.0,0.3612
+Sergey Brin T4,0.0,1.0,0.0,0.0
+Sergey Brin T5,0.112,0.888,0.0,0.34
+Sergey Brin T6,0.0,1.0,0.0,0.0
+Sergey Brin T7,0.0,1.0,0.0,0.0
+Sergey Brin T8,0.0,1.0,0.0,0.0
+Sergey Brin T9,0.0,1.0,0.0,0.0
+Sergey Brin T10,0.0,1.0,0.0,0.0
+Sergey Brin T11,0.0,1.0,0.0,0.0
+Sergey Brin T12,0.0,1.0,0.0,0.0
+Sergey Brin T13,0.0,1.0,0.0,0.0
+Sergey Brin T14,0.208,0.792,0.0,0.6428
+Sergey Brin T15,0.089,0.71,0.201,-0.4404
+Sergey Brin T16,0.0,1.0,0.0,0.0
+Sergey Brin T17,0.0,1.0,0.0,0.0
+Sergey Brin T18,0.0,1.0,0.0,0.0
+Sergey Brin T19,0.0,0.885,0.115,-0.296
+Sergey Brin T20,0.0,1.0,0.0,0.0
+Sergey Brin T21,0.0,1.0,0.0,0.0
+Sergey Brin T22,0.16,0.591,0.249,-0.4215
+Sergey Brin T23,0.0,1.0,0.0,0.0
+Sergey Brin T24,0.0,1.0,0.0,0.0
+Sergey Brin T25,0.083,0.917,0.0,0.2023
+Sergey Brin T26,0.0,1.0,0.0,0.0
+Sergey Brin T27,0.0,1.0,0.0,0.0
+Sergey Brin T28,0.0,1.0,0.0,0.0
+Sergey Brin T29,0.0,1.0,0.0,0.0
+Sergey Brin T30,0.0,0.594,0.406,-0.6249
+Sergey Brin T31,0.0,1.0,0.0,0.0
+Sergey Brin T32,0.0,1.0,0.0,0.0
+Sergey Brin T33,0.0,1.0,0.0,0.0
+Sergey Brin T34,0.162,0.838,0.0,0.4404
+Sergey Brin T35,0.0,1.0,0.0,0.0
+Sergey Brin T36,0.0,1.0,0.0,0.0
+Sergey Brin T37,0.105,0.786,0.109,-0.0258
+Sergey Brin T38,0.332,0.583,0.086,0.775
+Sergey Brin T39,0.0,1.0,0.0,0.0
+Sergey Brin T40,0.0,1.0,0.0,0.0
+Sergey Brin T41,0.253,0.747,0.0,0.6962
+Sergey Brin T42,0.0,1.0,0.0,0.0
+Sergey Brin T43,0.0,1.0,0.0,0.0
+Sergey Brin T44,0.151,0.849,0.0,0.296
+Sergey Brin T45,0.128,0.872,0.0,0.4215
+Sergey Brin T46,0.0,0.847,0.153,-0.4404
+Sergey Brin T47,0.163,0.705,0.132,0.1779
+Sergey Brin T48,0.113,0.887,0.0,0.3182
+Sergey Brin T49,0.136,0.864,0.0,0.4576
+Sergey Brin T50,0.0,0.885,0.115,-0.0772
+Sergey Brin T51,0.125,0.875,0.0,0.25
+Sergey Brin T52,0.0,0.872,0.128,-0.296
+Sergey Brin T53,0.0,1.0,0.0,0.0
+Sergey Brin T54,0.111,0.889,0.0,0.3612
+Sergey Brin T55,0.153,0.847,0.0,0.4019
+Sergey Brin T56,0.252,0.748,0.0,0.7506
+Sergey Brin T57,0.0,0.667,0.333,-0.7906
+Sergey Brin T58,0.134,0.638,0.228,-0.3535
+Sergey Brin T59,0.167,0.833,0.0,0.3818
+Sergey Brin T60,0.0,1.0,0.0,0.0
+Sergey Brin T61,0.0,0.928,0.072,-0.1027
+Sergey Brin T62,0.185,0.74,0.075,0.3597
+Sergey Brin T63,0.0,1.0,0.0,0.0
+Sergey Brin T64,0.0,1.0,0.0,0.0
+Sergey Brin T65,0.0,1.0,0.0,0.0
+Sergey Brin T66,0.0,1.0,0.0,0.0
+Sergey Brin T67,0.0,1.0,0.0,0.0
+Sergey Brin T68,0.0,1.0,0.0,0.0
+Sergey Brin T69,0.0,1.0,0.0,0.0
+Sergey Brin T70,0.118,0.882,0.0,0.1531
+Sergey Brin T71,0.0,1.0,0.0,0.0
+Sergey Brin T72,0.0,1.0,0.0,0.0
+Sergey Brin T73,0.195,0.805,0.0,0.5267
+Sergey Brin T74,0.124,0.876,0.0,0.4019
+Sergey Brin T75,0.0,0.804,0.196,-0.296
+Sergey Brin T76,0.162,0.838,0.0,0.4404
+Sergey Brin T77,0.0,1.0,0.0,0.0
+Sergey Brin T78,0.0,1.0,0.0,0.0
+Sergey Brin T79,0.0,0.845,0.155,-0.5106
+Sergey Brin T80,0.0,0.769,0.231,-0.5574
+Sergey Brin T81,0.0,0.864,0.136,-0.4588
+Sergey Brin T82,0.0,1.0,0.0,0.0
+Sergey Brin T83,0.253,0.747,0.0,0.7269
+Sergey Brin T84,0.144,0.597,0.259,-0.5956
+Sergey Brin T85,0.299,0.701,0.0,0.75
+Sergey Brin T86,0.0,1.0,0.0,0.0
+Sergey Brin T87,0.0,1.0,0.0,0.0
+Sergey Brin T88,0.0,1.0,0.0,0.0
+Sergey Brin T89,0.0,0.581,0.419,-0.802
+Sergey Brin T90,0.159,0.841,0.0,0.5267
+Sergey Brin T91,0.0,1.0,0.0,0.0
+Sergey Brin T92,0.0,1.0,0.0,0.0
+Sergey Brin T93,0.263,0.737,0.0,0.6124
+Sergey Brin T94,0.0,1.0,0.0,0.0
+Sergey Brin T95,0.0,1.0,0.0,0.0
+Sergey Brin T96,0.0,1.0,0.0,0.0
+Sergey Brin T97,0.0,1.0,0.0,0.0
+Sergey Brin T98,0.0,1.0,0.0,0.0
+Sergey Brin T99,0.141,0.45,0.41,-0.6997
+Sergey Brin T100,0.0,1.0,0.0,0.0
+Sergey Brin T101,0.434,0.566,0.0,0.9191
+Sergey Brin T102,0.171,0.829,0.0,0.5423
+Sergey Brin T103,0.0,1.0,0.0,0.0
+Sergey Brin T104,0.0,1.0,0.0,0.0
+Sergey Brin T105,0.0,0.829,0.171,-0.4767
+Sergey Brin T106,0.0,1.0,0.0,0.0
+Sergey Brin T107,0.0,1.0,0.0,0.0
+Sergey Brin T108,0.0,1.0,0.0,0.0
+Sergey Brin T109,0.144,0.697,0.159,-0.0772
+Sergey Brin T110,0.152,0.681,0.168,-0.0772
+Sergey Brin T111,0.0,1.0,0.0,0.0
+Sergey Brin T112,0.145,0.855,0.0,0.5267
+Sergey Brin T113,0.0,1.0,0.0,0.0
+Sergey Brin T114,0.0,1.0,0.0,0.0
+Sergey Brin T115,0.172,0.828,0.0,0.3612
+Sergey Brin T116,0.0,1.0,0.0,0.0
+Sergey Brin T117,0.0,1.0,0.0,0.0
+Sergey Brin T118,0.0,1.0,0.0,0.0
+Sergey Brin T119,0.114,0.822,0.064,0.2748
+Sergey Brin T120,0.153,0.847,0.0,0.5319
+Sergey Brin T121,0.0,1.0,0.0,0.0
+Sergey Brin T122,0.0,1.0,0.0,0.0
+Sergey Brin T123,0.159,0.841,0.0,0.5267
+Sergey Brin T124,0.0,1.0,0.0,0.0
+Sergey Brin T125,0.0,1.0,0.0,0.0
+Sergey Brin T126,0.229,0.459,0.312,-0.2263
+Sergey Brin T127,0.0,1.0,0.0,0.0
+Sergey Brin T128,0.0,1.0,0.0,0.0
+Sergey Brin T129,0.0,1.0,0.0,0.0
+Sergey Brin T130,0.0,1.0,0.0,0.0
+Sergey Brin T131,0.224,0.776,0.0,0.6369
+Sergey Brin T132,0.0,1.0,0.0,0.0
+Sergey Brin T133,0.0,1.0,0.0,0.0
+Bill Gates T1,0.148,0.852,0.0,0.4795
+Bill Gates T2,0.0,1.0,0.0,0.0
+Bill Gates T3,0.0,1.0,0.0,0.0
+Bill Gates T4,0.0,1.0,0.0,0.0
+Bill Gates T5,0.0,1.0,0.0,0.0
+Bill Gates T6,0.0,0.817,0.183,-0.5563
+Bill Gates T7,0.0,1.0,0.0,0.0
+Bill Gates T8,0.0,0.741,0.259,-0.6808
+Bill Gates T9,0.0,0.759,0.241,-0.6597
+Bill Gates T10,0.204,0.796,0.0,0.3182
+Bill Gates T11,0.087,0.913,0.0,0.2263
+Bill Gates T12,0.0,1.0,0.0,0.0
+Bill Gates T13,0.273,0.585,0.142,0.4601
+Bill Gates T14,0.0,1.0,0.0,0.0
+Bill Gates T15,0.0,0.879,0.121,-0.3549
+Bill Gates T16,0.241,0.759,0.0,0.5859
+Bill Gates T17,0.0,0.9,0.1,-0.25
+Bill Gates T18,0.0,0.0,0.0,0.0
+Bill Gates T19,0.0,0.794,0.206,-0.6597
+Bill Gates T20,0.67,0.33,0.0,0.7269
+Bill Gates T21,0.0,1.0,0.0,0.0
+Bill Gates T22,0.0,1.0,0.0,0.0
+Bill Gates T23,0.0,0.644,0.356,-0.8074
+Bill Gates T24,0.0,0.787,0.213,-0.6808
+Bill Gates T25,0.0,0.588,0.412,-0.5423
+Bill Gates T26,0.0,1.0,0.0,0.0
+Bill Gates T27,0.299,0.701,0.0,0.7506
+Bill Gates T28,0.0,1.0,0.0,0.0
+Bill Gates T29,0.0,1.0,0.0,0.0
+Bill Gates T30,0.0,1.0,0.0,0.0
+Bill Gates T31,0.0,1.0,0.0,0.0
+Bill Gates T32,0.0,1.0,0.0,0.0
+Bill Gates T33,0.0,0.681,0.319,-0.6901
+Bill Gates T34,0.117,0.726,0.157,0.0
+Bill Gates T35,0.0,0.75,0.25,-0.7906
+Bill Gates T36,0.0,1.0,0.0,0.0
+Bill Gates T37,0.079,0.83,0.092,-0.0772
+Bill Gates T38,0.0,1.0,0.0,0.0
+Bill Gates T39,0.0,1.0,0.0,0.0
+Bill Gates T40,0.0,1.0,0.0,0.0
+Bill Gates T41,0.0,1.0,0.0,0.0
+Bill Gates T42,0.0,0.857,0.143,-0.3612
+Bill Gates T43,0.0,1.0,0.0,0.0
+Bill Gates T44,0.0,0.795,0.205,-0.5994
+Bill Gates T45,0.0,0.735,0.265,-0.6887
+Bill Gates T46,0.13,0.87,0.0,0.4019
+Bill Gates T47,0.0,1.0,0.0,0.0
+Bill Gates T48,0.0,0.784,0.216,-0.5106
+Bill Gates T49,0.0,1.0,0.0,0.0
+Bill Gates T50,0.138,0.862,0.0,0.4939
+Bill Gates T51,0.124,0.678,0.198,-0.3182
+Bill Gates T52,0.0,1.0,0.0,0.0
+Bill Gates T53,0.0,0.843,0.157,-0.4215
+Bill Gates T54,0.0,1.0,0.0,0.0
+Bill Gates T55,0.176,0.824,0.0,0.4939
+Bill Gates T56,0.0,1.0,0.0,0.0
+Bill Gates T57,0.0,1.0,0.0,0.0
+Bill Gates T58,0.0,0.859,0.141,-0.4215
+Bill Gates T59,0.101,0.899,0.0,0.2023
+Bill Gates T60,0.0,1.0,0.0,0.0
+Bill Gates T61,0.0,1.0,0.0,0.0
+Bill Gates T62,0.0,1.0,0.0,0.0
+Bill Gates T63,0.0,0.659,0.341,-0.6908
+Bill Gates T64,0.0,1.0,0.0,0.0
+Bill Gates T65,0.167,0.833,0.0,0.4939
+Bill Gates T66,0.194,0.806,0.0,0.6249
+Bill Gates T67,0.098,0.793,0.109,-0.0598
+Bill Gates T68,0.0,0.597,0.403,-0.4019
+Bill Gates T69,0.148,0.852,0.0,0.5106
+Bill Gates T70,0.246,0.754,0.0,0.5994
+Bill Gates T71,0.0,1.0,0.0,0.0
+Bill Gates T72,0.0,0.675,0.325,-0.8271
+Bill Gates T73,0.259,0.741,0.0,0.6369
+Bill Gates T74,0.0,1.0,0.0,0.0
+Bill Gates T75,0.0,1.0,0.0,0.0
+Bill Gates T76,0.0,0.837,0.163,-0.5106
+Bill Gates T77,0.0,0.905,0.095,-0.296
+Bill Gates T78,0.0,1.0,0.0,0.0
+Bill Gates T79,0.0,1.0,0.0,0.0
+Bill Gates T80,0.0,1.0,0.0,0.0
+Bill Gates T81,0.0,1.0,0.0,0.0
+Bill Gates T82,0.205,0.795,0.0,0.5994
+Bill Gates T83,0.0,1.0,0.0,0.0
+Bill Gates T84,0.0,1.0,0.0,0.0
+Bill Gates T85,0.0,1.0,0.0,0.0
+Bill Gates T86,0.0,0.707,0.293,-0.4404
+Bill Gates T87,0.172,0.828,0.0,0.4005
+Bill Gates T88,0.0,1.0,0.0,0.0
+Bill Gates T89,0.0,1.0,0.0,0.0
+Bill Gates T90,0.0,0.667,0.333,-0.6697
+Bill Gates T91,0.0,1.0,0.0,0.0
+Bill Gates T92,0.0,0.931,0.069,-0.1027
+Bill Gates T93,0.0,0.872,0.128,-0.3612
+Bill Gates T94,0.512,0.488,0.0,0.2732
+Bill Gates T95,0.0,1.0,0.0,0.0
+Bill Gates T96,0.0,1.0,0.0,0.0
+Bill Gates T97,0.0,1.0,0.0,0.0
+Bill Gates T98,0.0,0.764,0.236,-0.5719
+Bill Gates T99,0.167,0.833,0.0,0.4215
+Bill Gates T100,0.125,0.718,0.157,-0.1832
+Bill Gates T101,0.0,1.0,0.0,0.0
+Bill Gates T102,0.314,0.686,0.0,0.4939
+Bill Gates T103,0.0,1.0,0.0,0.0
+Bill Gates T104,0.0,1.0,0.0,0.0
+Bill Gates T105,0.0,0.728,0.272,-0.6249
+Bill Gates T106,0.107,0.816,0.077,0.1225
+Bill Gates T107,0.185,0.815,0.0,0.3612
+Bill Gates T108,0.0,0.891,0.109,-0.296
+Bill Gates T109,0.0,0.892,0.108,-0.3182
+Bill Gates T110,0.0,0.816,0.184,-0.5574
+Bill Gates T111,0.0,1.0,0.0,0.0
+Bill Gates T112,0.0,0.781,0.219,-0.1027
+Bill Gates T113,0.0,1.0,0.0,0.0
+Bill Gates T114,0.0,1.0,0.0,0.0
+Bill Gates T115,0.0,1.0,0.0,0.0
+Bill Gates T116,0.115,0.617,0.267,-0.5719
+Bill Gates T117,0.0,1.0,0.0,0.0
+Bill Gates T118,0.0,1.0,0.0,0.0
+Bill Gates T119,0.0,1.0,0.0,0.0
+Bill Gates T120,0.059,0.86,0.081,-0.128
+Bill Gates T121,0.0,0.878,0.122,-0.3875
+Bill Gates T122,0.0,0.837,0.163,-0.5984
+Bill Gates T123,0.0,1.0,0.0,0.0
+Bill Gates T124,0.0,1.0,0.0,0.0
+Bill Gates T125,0.155,0.683,0.161,-0.0258
+Bill Gates T126,0.0,0.905,0.095,-0.2263
+Bill Gates T127,0.139,0.861,0.0,0.5267
+Bill Gates T128,0.091,0.909,0.0,0.2263
+Bill Gates T129,0.0,1.0,0.0,0.0
+Bill Gates T130,0.0,0.918,0.082,-0.1779
+Adam Steltzner T1,0.0,1.0,0.0,0.0
+Adam Steltzner T2,0.188,0.812,0.0,0.5719
+Adam Steltzner T3,0.0,0.87,0.13,-0.34
+Michio Kaku T1,0.0,1.0,0.0,0.0
+Michio Kaku T2,0.404,0.596,0.0,0.7772
+Michio Kaku T3,0.0,0.672,0.328,-0.4466
+Michio Kaku T4,0.149,0.851,0.0,0.2732
+Michio Kaku T5,0.0,1.0,0.0,0.0
+Michio Kaku T6,0.0,0.803,0.197,-0.4019
+Michio Kaku T7,0.0,1.0,0.0,0.0
+Michio Kaku T8,0.0,1.0,0.0,0.0
+Michio Kaku T9,0.1,0.9,0.0,0.2732
+Michio Kaku T10,0.0,1.0,0.0,0.0
+Michio Kaku T11,0.0,1.0,0.0,0.0
+Michio Kaku T12,0.0,1.0,0.0,0.0
+Michio Kaku T13,0.0,1.0,0.0,0.0
+Michio Kaku T14,0.0,1.0,0.0,0.0
+Michio Kaku T15,0.0,1.0,0.0,0.0
+Michio Kaku T16,0.239,0.761,0.0,0.5719
+Michio Kaku T17,0.0,1.0,0.0,0.0
+Michio Kaku T18,0.0,1.0,0.0,0.0
+Michio Kaku T19,0.13,0.669,0.201,-0.1779
+Michio Kaku T20,0.0,0.769,0.231,-0.4019
+Michio Kaku T21,0.0,1.0,0.0,0.0
+Michio Kaku T22,0.294,0.706,0.0,0.3612
+Michio Kaku T23,0.0,1.0,0.0,0.0
+Michio Kaku T24,0.0,1.0,0.0,0.0
+Michio Kaku T25,0.0,1.0,0.0,0.0
+Michio Kaku T26,0.0,1.0,0.0,0.0
+Michio Kaku T27,0.0,0.87,0.13,-0.4019
+Michio Kaku T28,0.0,0.787,0.213,-0.4019
+Michio Kaku T29,0.492,0.508,0.0,0.6988
+Michio Kaku T30,0.452,0.548,0.0,0.765
+Michio Kaku T31,0.0,1.0,0.0,0.0
+Michio Kaku T32,0.0,0.905,0.095,-0.296
+Michio Kaku T33,0.0,0.87,0.13,-0.4019
+Michio Kaku T34,0.0,1.0,0.0,0.0
+Michio Kaku T35,0.0,1.0,0.0,0.0
+Michio Kaku T36,0.0,0.774,0.226,-0.5423
+Michio Kaku T37,0.0,1.0,0.0,0.0
+Michio Kaku T38,0.115,0.885,0.0,0.0772
+Michio Kaku T39,0.0,1.0,0.0,0.0
+Michio Kaku T40,0.0,1.0,0.0,0.0
+Michio Kaku T41,0.0,1.0,0.0,0.0
+Michio Kaku T42,0.1,0.9,0.0,0.25
+Michio Kaku T43,0.0,0.915,0.085,-0.1935
+Michio Kaku T44,0.0,1.0,0.0,0.0
+Michio Kaku T45,0.0,1.0,0.0,0.0
+Michio Kaku T46,0.0,1.0,0.0,0.0
+Michio Kaku T47,0.0,1.0,0.0,0.0
+Michio Kaku T48,0.0,1.0,0.0,0.0
+Michio Kaku T49,0.0,1.0,0.0,0.0
+Michio Kaku T50,0.263,0.737,0.0,0.6124
+Michio Kaku T51,0.122,0.878,0.0,0.3612
+Michio Kaku T52,0.0,0.828,0.172,-0.4019
+Michio Kaku T53,0.0,1.0,0.0,0.0
+Michio Kaku T54,0.208,0.792,0.0,0.2732
+Michio Kaku T55,0.0,0.833,0.167,-0.296
+Michio Kaku T56,0.0,1.0,0.0,0.0
+Michio Kaku T57,0.176,0.824,0.0,0.4939
+Michio Kaku T58,0.0,1.0,0.0,0.0
+Michio Kaku T59,0.084,0.813,0.104,-0.1154
+Michio Kaku T60,0.0,0.0,0.0,0.0
+Michio Kaku T61,0.219,0.781,0.0,0.6369
+Michio Kaku T62,0.074,0.926,0.0,0.1326
+Michio Kaku T63,0.0,0.744,0.256,-0.4767
+Michio Kaku T64,0.0,1.0,0.0,0.0
+Michio Kaku T65,0.227,0.773,0.0,0.4767
+Michio Kaku T66,0.0,0.758,0.242,-0.1531
+Michio Kaku T67,0.0,1.0,0.0,0.0
+Michio Kaku T68,0.307,0.693,0.0,0.7964
+Michio Kaku T69,0.126,0.874,0.0,0.3818
+Michio Kaku T70,0.0,0.769,0.231,-0.4019
+Michio Kaku T71,0.0,0.863,0.137,-0.4019
+Michio Kaku T72,0.0,1.0,0.0,0.0
+Michio Kaku T73,0.0,1.0,0.0,0.0
+Michio Kaku T74,0.0,1.0,0.0,0.0
+Michio Kaku T75,0.0,0.787,0.213,-0.4019
+Michio Kaku T76,0.122,0.878,0.0,0.3612
+Michio Kaku T77,0.0,0.494,0.506,-0.624
+Michio Kaku T78,0.0,1.0,0.0,0.0
+Michio Kaku T79,0.0,0.847,0.153,-0.4404
+Michio Kaku T80,0.0,1.0,0.0,0.0
+Michio Kaku T81,0.0,1.0,0.0,0.0
+Michio Kaku T82,0.0,1.0,0.0,0.0
+Michio Kaku T83,0.402,0.598,0.0,0.8126
+Michio Kaku T84,0.149,0.851,0.0,0.2732
+Michio Kaku T85,0.397,0.603,0.0,0.5095
+Michio Kaku T86,0.099,0.901,0.0,0.3182
+Michio Kaku T87,0.0,0.856,0.144,-0.4019
+Michio Kaku T88,0.137,0.863,0.0,0.2263
+Michio Kaku T89,0.0,0.803,0.197,-0.4019
+Michio Kaku T90,0.214,0.786,0.0,0.4588
+Michio Kaku T91,0.219,0.781,0.0,0.6808
+Michio Kaku T92,0.0,0.847,0.153,-0.4019
+Michio Kaku T93,0.309,0.691,0.0,0.7003
+Michio Kaku T94,0.0,0.847,0.153,-0.4019
+Michio Kaku T95,0.0,0.816,0.184,-0.4019
+Michio Kaku T96,0.0,0.667,0.333,-0.3612
+Michio Kaku T97,0.0,1.0,0.0,0.0
+Michio Kaku T98,0.0,0.734,0.266,-0.7003
+Michio Kaku T99,0.0,1.0,0.0,0.0
+Michio Kaku T100,0.2,0.8,0.0,0.4588
+Michio Kaku T101,0.0,1.0,0.0,0.0
+Michio Kaku T102,0.0,1.0,0.0,0.0
+Michio Kaku T103,0.191,0.809,0.0,0.6705
+Michio Kaku T104,0.0,1.0,0.0,0.0
+Michio Kaku T105,0.0,1.0,0.0,0.0
+Michio Kaku T106,0.16,0.737,0.103,0.1406
+Michio Kaku T107,0.339,0.521,0.141,0.4215
+Michio Kaku T108,0.0,0.474,0.526,-0.875
+Michio Kaku T109,0.122,0.878,0.0,0.3612
+Michio Kaku T110,0.0,1.0,0.0,0.0
+Michio Kaku T111,0.24,0.65,0.11,0.296
+Michio Kaku T112,0.226,0.774,0.0,0.6739
+Michio Kaku T113,0.0,1.0,0.0,0.0
+Michio Kaku T114,0.0,1.0,0.0,0.0
+Michio Kaku T115,0.512,0.488,0.0,0.6369
+Michio Kaku T116,0.247,0.753,0.0,0.3182
+Michio Kaku T117,0.277,0.723,0.0,0.3182
+Michio Kaku T118,0.0,0.491,0.509,-0.4847
+Michio Kaku T119,0.121,0.792,0.087,0.1861
+Neil deGrasse Tyson T1,0.111,0.889,0.0,0.3612
+Neil deGrasse Tyson T2,0.0,1.0,0.0,0.0
+Neil deGrasse Tyson T3,0.0,1.0,0.0,0.0
+Neil deGrasse Tyson T4,0.209,0.637,0.153,0.0598
+Neil deGrasse Tyson T5,0.0,1.0,0.0,0.0
+Neil deGrasse Tyson T6,0.471,0.529,0.0,0.836
+Neil deGrasse Tyson T7,0.0,1.0,0.0,0.0
+Neil deGrasse Tyson T8,0.0,0.0,0.0,0.0
+Neil deGrasse Tyson T9,0.0,0.826,0.174,-0.2263
+Neil deGrasse Tyson T10,0.0,1.0,0.0,0.0
+Neil deGrasse Tyson T11,0.0,1.0,0.0,0.0
+Neil deGrasse Tyson T12,0.0,1.0,0.0,0.0
+Neil deGrasse Tyson T13,0.0,1.0,0.0,0.0
+Neil deGrasse Tyson T14,0.29,0.71,0.0,0.5673
+Neil deGrasse Tyson T15,0.0,1.0,0.0,0.0
+Neil deGrasse Tyson T16,0.0,0.864,0.136,-0.296
+Neil deGrasse Tyson T17,0.251,0.749,0.0,0.6908
+Neil deGrasse Tyson T18,0.0,0.83,0.17,-0.6239
+Neil deGrasse Tyson T19,0.171,0.829,0.0,0.4019
+Neil deGrasse Tyson T20,0.0,1.0,0.0,0.0
+Neil deGrasse Tyson T21,0.0,0.855,0.145,-0.5267
+Neil deGrasse Tyson T22,0.0,0.708,0.292,-0.7906
+Neil deGrasse Tyson T23,0.366,0.494,0.14,0.7579
+Neil deGrasse Tyson T24,0.0,0.664,0.336,-0.765
+Neil deGrasse Tyson T25,0.0,1.0,0.0,0.0
+Neil deGrasse Tyson T26,0.0,0.707,0.293,-0.4404
+Neil deGrasse Tyson T27,0.0,1.0,0.0,0.0
+Neil deGrasse Tyson T28,0.211,0.789,0.0,0.296
+Neil deGrasse Tyson T29,0.0,1.0,0.0,0.0
+Neil deGrasse Tyson T30,0.129,0.762,0.11,0.1027
+Neil deGrasse Tyson T31,0.0,1.0,0.0,0.0
+Neil deGrasse Tyson T32,0.146,0.734,0.121,0.1226
+Neil deGrasse Tyson T33,0.149,0.851,0.0,0.4215
+Neil deGrasse Tyson T34,0.31,0.69,0.0,0.5267
+Neil deGrasse Tyson T35,0.0,1.0,0.0,0.0
+Neil deGrasse Tyson T36,0.0,1.0,0.0,0.0
+Neil deGrasse Tyson T37,0.0,1.0,0.0,0.0
+Neil deGrasse Tyson T38,0.0,1.0,0.0,0.0
+Neil deGrasse Tyson T39,0.237,0.763,0.0,0.4215
+Neil deGrasse Tyson T40,0.0,1.0,0.0,0.0
+Neil deGrasse Tyson T41,0.09,0.806,0.104,-0.0772
+Neil deGrasse Tyson T42,0.242,0.758,0.0,0.296
+Neil deGrasse Tyson T43,0.0,1.0,0.0,0.0
+Neil deGrasse Tyson T44,0.453,0.547,0.0,0.7003
+Neil deGrasse Tyson T45,0.254,0.604,0.142,0.6908
+Neil deGrasse Tyson T46,0.234,0.435,0.332,-0.4215
+Neil deGrasse Tyson T47,0.291,0.709,0.0,0.5719
+Neil deGrasse Tyson T48,0.121,0.879,0.0,0.296
+Neil deGrasse Tyson T49,0.291,0.709,0.0,0.802
+Neil deGrasse Tyson T50,0.291,0.709,0.0,0.5719
+Neil deGrasse Tyson T51,0.0,1.0,0.0,0.0
+Neil deGrasse Tyson T52,0.165,0.835,0.0,0.4168
+Neil deGrasse Tyson T53,0.22,0.657,0.123,0.3321
+Neil deGrasse Tyson T54,0.291,0.709,0.0,0.5719
+Neil deGrasse Tyson T55,0.122,0.878,0.0,0.3898
+Neil deGrasse Tyson T56,0.112,0.888,0.0,0.3898
+Neil deGrasse Tyson T57,0.163,0.739,0.097,0.1779
+Neil deGrasse Tyson T58,0.244,0.756,0.0,0.7017
+Neil deGrasse Tyson T59,0.0,1.0,0.0,0.0
+Neil deGrasse Tyson T60,0.109,0.891,0.0,0.1513
+Neil deGrasse Tyson T61,0.153,0.847,0.0,0.2023
+Neil deGrasse Tyson T62,0.0,1.0,0.0,0.0
+Neil deGrasse Tyson T63,0.133,0.867,0.0,0.3182
+Neil deGrasse Tyson T64,0.0,1.0,0.0,0.0
+Neil deGrasse Tyson T65,0.165,0.667,0.169,0.2263
+Neil deGrasse Tyson T66,0.133,0.867,0.0,0.4728
+Neil deGrasse Tyson T67,0.068,0.837,0.094,-0.1872
+Neil deGrasse Tyson T68,0.0,0.872,0.128,-0.3612
+Neil deGrasse Tyson T69,0.318,0.682,0.0,0.6369
+Neil deGrasse Tyson T70,0.0,1.0,0.0,0.0
+Neil deGrasse Tyson T71,0.177,0.823,0.0,0.4215
+Neil deGrasse Tyson T72,0.154,0.714,0.132,0.1027
+Neil deGrasse Tyson T73,0.0,1.0,0.0,0.0
+Neil deGrasse Tyson T74,0.191,0.809,0.0,0.3818
+Neil deGrasse Tyson T75,0.229,0.673,0.099,0.4404
+Neil deGrasse Tyson T76,0.0,0.851,0.149,-0.6369
+Neil deGrasse Tyson T77,0.0,1.0,0.0,0.0
+Neil deGrasse Tyson T78,0.0,1.0,0.0,0.0
+Neil deGrasse Tyson T79,0.07,0.749,0.181,-0.5423
+Neil deGrasse Tyson T80,0.0,1.0,0.0,0.0
+Neil deGrasse Tyson T81,0.286,0.714,0.0,0.8402
+Neil deGrasse Tyson T82,0.0,1.0,0.0,0.0
+Neil deGrasse Tyson T83,0.0,1.0,0.0,0.0
+Neil deGrasse Tyson T84,0.0,1.0,0.0,0.0
+Neil deGrasse Tyson T85,0.124,0.876,0.0,0.4549
+Neil deGrasse Tyson T86,0.257,0.743,0.0,0.6696
+Neil deGrasse Tyson T87,0.0,1.0,0.0,0.0
+Neil deGrasse Tyson T88,0.0,1.0,0.0,0.0
+Neil deGrasse Tyson T89,0.0,1.0,0.0,0.0
+Neil deGrasse Tyson T90,0.0,1.0,0.0,0.0
+Neil deGrasse Tyson T91,0.228,0.707,0.065,0.6124
+Neil deGrasse Tyson T92,0.0,1.0,0.0,0.0
+Neil deGrasse Tyson T93,0.212,0.687,0.101,0.4404
+Neil deGrasse Tyson T94,0.385,0.615,0.0,0.3612
+Neil deGrasse Tyson T95,0.0,0.899,0.101,-0.2023
+Neil deGrasse Tyson T96,0.0,1.0,0.0,0.0
+Neil deGrasse Tyson T97,0.296,0.56,0.143,0.702
+Neil deGrasse Tyson T98,0.0,1.0,0.0,0.0
+Neil deGrasse Tyson T99,0.0,0.829,0.171,-0.4767
+Neil deGrasse Tyson T100,0.0,1.0,0.0,0.0
+Neil deGrasse Tyson T101,0.162,0.838,0.0,0.4019
+Neil deGrasse Tyson T102,0.145,0.694,0.162,-0.0772
+Neil deGrasse Tyson T103,0.075,0.925,0.0,0.0772
+Neil deGrasse Tyson T104,0.16,0.742,0.098,0.3919
+Neil deGrasse Tyson T105,0.409,0.591,0.0,0.8858
+Neil deGrasse Tyson T106,0.149,0.851,0.0,0.4215
+Neil deGrasse Tyson T107,0.0,1.0,0.0,0.0
+Neil deGrasse Tyson T108,0.0,1.0,0.0,0.0
+Neil deGrasse Tyson T109,0.0,1.0,0.0,0.0
+Neil deGrasse Tyson T110,0.0,0.909,0.091,-0.0516
+Neil deGrasse Tyson T111,0.0,1.0,0.0,0.0
+Neil deGrasse Tyson T112,0.143,0.696,0.161,-0.3506
+Neil deGrasse Tyson T113,0.0,1.0,0.0,0.0
+Neil deGrasse Tyson T114,0.0,1.0,0.0,0.0
+Neil deGrasse Tyson T115,0.251,0.749,0.0,0.6908
+Neil deGrasse Tyson T116,0.0,1.0,0.0,0.0
+Neil deGrasse Tyson T117,0.0,1.0,0.0,0.0
+Neil deGrasse Tyson T118,0.0,1.0,0.0,0.0
+Neil deGrasse Tyson T119,0.172,0.552,0.276,-0.3612
+Neil deGrasse Tyson T120,0.0,1.0,0.0,0.0
+Neil deGrasse Tyson T121,0.0,1.0,0.0,0.0
+Neil deGrasse Tyson T122,0.0,1.0,0.0,0.0
+Neil deGrasse Tyson T123,0.216,0.706,0.078,0.4438
+Neil deGrasse Tyson T124,0.0,1.0,0.0,0.0
+Neil deGrasse Tyson T125,0.0,0.845,0.155,-0.296
+Neil deGrasse Tyson T126,0.064,0.936,0.0,0.0258
+Neil deGrasse Tyson T127,0.0,1.0,0.0,0.0
+Neil deGrasse Tyson T128,0.0,0.685,0.315,-0.7845
+Neil deGrasse Tyson T129,0.126,0.874,0.0,0.3182
+Neil deGrasse Tyson T130,0.157,0.843,0.0,0.0772
+Neil deGrasse Tyson T131,0.0,1.0,0.0,0.0
+Neil deGrasse Tyson T132,0.0,1.0,0.0,0.0
+Neil deGrasse Tyson T133,0.0,1.0,0.0,0.0
+Neil deGrasse Tyson T134,0.099,0.901,0.0,0.296
+Neil deGrasse Tyson T135,0.547,0.453,0.0,0.9512
+Neil deGrasse Tyson T136,0.0,0.809,0.191,-0.3818
+Neil deGrasse Tyson T137,0.0,1.0,0.0,0.0
+Neil deGrasse Tyson T138,0.0,0.87,0.13,-0.34
+Neil deGrasse Tyson T139,0.11,0.793,0.097,0.0772
+Neil deGrasse Tyson T140,0.241,0.759,0.0,0.6908
+Neil deGrasse Tyson T141,0.0,0.869,0.131,-0.3412
+Neil deGrasse Tyson T142,0.0,1.0,0.0,0.0
+Neil deGrasse Tyson T143,0.0,1.0,0.0,0.0
+Neil deGrasse Tyson T144,0.0,1.0,0.0,0.0
+Neil deGrasse Tyson T145,0.0,1.0,0.0,0.0
+Neil deGrasse Tyson T146,0.477,0.523,0.0,0.8479
+Neil deGrasse Tyson T147,0.0,1.0,0.0,0.0
+hellomayuko T1,0.0,1.0,0.0,0.0
+hellomayuko T2,0.0,1.0,0.0,0.0
+hellomayuko T3,0.15,0.85,0.0,0.3182
+hellomayuko T4,0.0,0.0,0.0,0.0

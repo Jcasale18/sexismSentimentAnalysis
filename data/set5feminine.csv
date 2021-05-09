@@ -1,0 +1,478 @@
+trial,Pos.,Neu.,Neg.,Summary
+Susan Kare T1,0.16,0.84,0.0,0.2263
+Susan Kare T2,0.178,0.763,0.059,0.4215
+Susan Kare T3,0.0,1.0,0.0,0.0
+Susan Kare T4,0.0,1.0,0.0,0.0
+Susan Kare T5,0.0,1.0,0.0,0.0
+Susan Kare T6,0.0,1.0,0.0,0.0
+Susan Kare T7,0.0,0.756,0.244,-0.6705
+Susan Kare T8,0.108,0.892,0.0,0.3182
+Susan Kare T9,0.0,1.0,0.0,0.0
+Susan Kare T10,0.2,0.8,0.0,0.4588
+Melinda Gates T1,0.0,1.0,0.0,0.0
+Melinda Gates T2,0.0,1.0,0.0,0.0
+Melinda Gates T3,0.0,1.0,0.0,0.0
+Melinda Gates T4,0.0,1.0,0.0,0.0
+Melinda Gates T5,0.0,0.0,0.0,0.0
+Melinda Gates T6,0.0,1.0,0.0,0.0
+Melinda Gates T7,0.0,1.0,0.0,0.0
+Melinda Gates T8,0.0,1.0,0.0,0.0
+Melinda Gates T9,0.0,1.0,0.0,0.0
+Melinda Gates T10,0.0,0.759,0.241,-0.6597
+Melinda Gates T11,0.0,0.604,0.396,-0.6037
+Melinda Gates T12,0.087,0.913,0.0,0.2263
+Melinda Gates T13,0.0,1.0,0.0,0.0
+Melinda Gates T14,0.176,0.611,0.214,-0.128
+Melinda Gates T15,0.0,1.0,0.0,0.0
+Melinda Gates T16,0.0,0.9,0.1,-0.25
+Melinda Gates T17,0.388,0.517,0.095,0.7783
+Melinda Gates T18,0.0,1.0,0.0,0.0
+Melinda Gates T19,0.67,0.33,0.0,0.7269
+Melinda Gates T20,0.16,0.729,0.111,0.2792
+Melinda Gates T21,0.0,1.0,0.0,0.0
+Melinda Gates T22,0.0,1.0,0.0,0.0
+Melinda Gates T23,0.0,1.0,0.0,0.0
+Melinda Gates T24,0.0,1.0,0.0,0.0
+Melinda Gates T25,0.079,0.83,0.092,-0.0772
+Melinda Gates T26,0.0,1.0,0.0,0.0
+Melinda Gates T27,0.0,1.0,0.0,0.0
+Melinda Gates T28,0.0,1.0,0.0,0.0
+Melinda Gates T29,0.0,1.0,0.0,0.0
+Melinda Gates T30,0.0,1.0,0.0,0.0
+Melinda Gates T31,0.176,0.824,0.0,0.4939
+Melinda Gates T32,0.0,1.0,0.0,0.0
+Melinda Gates T33,0.101,0.899,0.0,0.2023
+Melinda Gates T34,0.0,0.469,0.531,-0.7783
+Melinda Gates T35,0.167,0.833,0.0,0.25
+Melinda Gates T36,0.0,1.0,0.0,0.0
+Melinda Gates T37,0.0,0.597,0.403,-0.4019
+Melinda Gates T38,0.148,0.852,0.0,0.5106
+Melinda Gates T39,0.0,1.0,0.0,0.0
+Melinda Gates T40,0.0,1.0,0.0,0.0
+Melinda Gates T41,0.0,0.837,0.163,-0.5106
+Melinda Gates T42,0.237,0.763,0.0,0.6801
+Melinda Gates T43,0.0,1.0,0.0,0.0
+Melinda Gates T44,0.084,0.737,0.179,-0.4005
+Melinda Gates T45,0.0,1.0,0.0,0.0
+Melinda Gates T46,0.0,1.0,0.0,0.0
+Melinda Gates T47,0.0,1.0,0.0,0.0
+Melinda Gates T48,0.512,0.488,0.0,0.2732
+Melinda Gates T49,0.0,1.0,0.0,0.0
+Melinda Gates T50,0.0,0.764,0.236,-0.5719
+Melinda Gates T51,0.0,1.0,0.0,0.0
+Melinda Gates T52,0.0,1.0,0.0,0.0
+Melinda Gates T53,0.0,1.0,0.0,0.0
+Melinda Gates T54,0.0,1.0,0.0,0.0
+Melinda Gates T55,0.107,0.816,0.077,0.1225
+Melinda Gates T56,0.0,0.891,0.109,-0.296
+Melinda Gates T57,0.0,1.0,0.0,0.0
+Melinda Gates T58,0.0,1.0,0.0,0.0
+Melinda Gates T59,0.355,0.645,0.0,0.296
+Melinda Gates T60,0.0,1.0,0.0,0.0
+Melinda Gates T61,0.0,1.0,0.0,0.0
+Melinda Gates T62,0.0,1.0,0.0,0.0
+Melinda Gates T63,0.0,1.0,0.0,0.0
+Melinda Gates T64,0.0,1.0,0.0,0.0
+Melinda Gates T65,0.139,0.861,0.0,0.5267
+Melinda Gates T66,0.0,1.0,0.0,0.0
+Melinda Gates T67,0.091,0.909,0.0,0.2263
+Melinda Gates T68,0.0,0.918,0.082,-0.1779
+Melinda Gates T69,0.0,1.0,0.0,0.0
+Melinda Gates T70,0.0,1.0,0.0,0.0
+Melinda Gates T71,0.0,1.0,0.0,0.0
+Melinda Gates T72,0.0,1.0,0.0,0.0
+Melinda Gates T73,0.143,0.857,0.0,0.3612
+Melinda Gates T74,0.0,1.0,0.0,0.0
+Melinda Gates T75,0.0,1.0,0.0,0.0
+Melinda Gates T76,0.115,0.733,0.152,-0.169
+Melinda Gates T77,0.0,1.0,0.0,0.0
+Melinda Gates T78,0.151,0.849,0.0,0.4939
+Melinda Gates T79,0.0,1.0,0.0,0.0
+Melinda Gates T80,0.0,0.78,0.22,-0.5859
+Melinda Gates T81,0.0,1.0,0.0,0.0
+Melinda Gates T82,0.524,0.476,0.0,0.8313
+Melinda Gates T83,0.0,1.0,0.0,0.0
+Melinda Gates T84,0.0,1.0,0.0,0.0
+Melinda Gates T85,0.0,1.0,0.0,0.0
+Melinda Gates T86,0.27,0.73,0.0,0.743
+Melinda Gates T87,0.0,1.0,0.0,0.0
+Melinda Gates T88,0.0,1.0,0.0,0.0
+Melinda Gates T89,0.0,0.855,0.145,-0.296
+Melinda Gates T90,0.0,1.0,0.0,0.0
+Melinda Gates T91,0.1,0.9,0.0,0.2732
+Melinda Gates T92,0.0,0.813,0.187,-0.6808
+Melinda Gates T93,0.121,0.879,0.0,0.4404
+Melinda Gates T94,0.231,0.769,0.0,0.34
+Melinda Gates T95,0.0,1.0,0.0,0.0
+Melinda Gates T96,0.0,0.855,0.145,-0.296
+Melinda Gates T97,0.0,1.0,0.0,0.0
+Melinda Gates T98,0.0,1.0,0.0,0.0
+Melinda Gates T99,0.0,1.0,0.0,0.0
+Melinda Gates T100,0.0,0.857,0.143,-0.3612
+Melinda Gates T101,0.0,1.0,0.0,0.0
+Melinda Gates T102,0.0,1.0,0.0,0.0
+Melinda Gates T103,0.0,0.913,0.087,-0.296
+Melinda Gates T104,0.0,1.0,0.0,0.0
+Melinda Gates T105,0.053,0.87,0.077,-0.128
+Melinda Gates T106,0.294,0.706,0.0,0.3612
+Melinda Gates T107,0.0,0.884,0.116,-0.2732
+Melinda Gates T108,0.0,1.0,0.0,0.0
+Melinda Gates T109,0.0,0.479,0.521,-0.8225
+Melinda Gates T110,0.351,0.649,0.0,0.6599
+Melinda Gates T111,0.0,1.0,0.0,0.0
+Melinda Gates T112,0.225,0.775,0.0,0.541
+Melinda Gates T113,0.0,0.843,0.157,-0.3818
+Melinda Gates T114,0.0,1.0,0.0,0.0
+Melinda Gates T115,0.0,1.0,0.0,0.0
+Melinda Gates T116,0.0,1.0,0.0,0.0
+Melinda Gates T117,0.059,0.856,0.086,-0.128
+Melinda Gates T118,0.28,0.72,0.0,0.5984
+Melinda Gates T119,0.0,1.0,0.0,0.0
+Melinda Gates T120,0.0,1.0,0.0,0.0
+Melinda Gates T121,0.0,0.911,0.089,-0.2411
+Melinda Gates T122,0.0,1.0,0.0,0.0
+Melinda Gates T123,0.0,1.0,0.0,0.0
+Melinda Gates T124,0.0,1.0,0.0,0.0
+Melinda Gates T125,0.217,0.783,0.0,0.5574
+Melinda Gates T126,0.346,0.654,0.0,0.5719
+Melinda Gates T127,0.189,0.449,0.362,-0.594
+Melinda Gates T128,0.159,0.841,0.0,0.34
+Diana Trujillo T1,0.0,1.0,0.0,0.0
+Diana Trujillo T2,0.0,1.0,0.0,0.0
+Diana Trujillo T3,0.0,1.0,0.0,0.0
+Diana Trujillo T4,0.0,1.0,0.0,0.0
+Diana Trujillo T5,0.0,1.0,0.0,0.0
+Diana Trujillo T6,0.0,1.0,0.0,0.0
+Diana Trujillo T7,0.0,1.0,0.0,0.0
+Diana Trujillo T8,0.0,1.0,0.0,0.0
+Diana Trujillo T9,0.0,1.0,0.0,0.0
+Diana Trujillo T10,0.0,1.0,0.0,0.0
+Diana Trujillo T11,0.0,1.0,0.0,0.0
+Diana Trujillo T12,0.0,0.769,0.231,-0.5574
+Diana Trujillo T13,0.0,1.0,0.0,0.0
+Diana Trujillo T14,0.0,1.0,0.0,0.0
+Diana Trujillo T15,0.0,1.0,0.0,0.0
+Diana Trujillo T16,0.0,1.0,0.0,0.0
+Diana Trujillo T17,0.0,1.0,0.0,0.0
+Diana Trujillo T18,0.0,1.0,0.0,0.0
+Diana Trujillo T19,0.0,1.0,0.0,0.0
+Diana Trujillo T20,0.0,1.0,0.0,0.0
+Diana Trujillo T21,0.0,0.885,0.115,-0.296
+Diana Trujillo T22,0.0,1.0,0.0,0.0
+Diana Trujillo T23,0.0,1.0,0.0,0.0
+Diana Trujillo T24,0.0,1.0,0.0,0.0
+Diana Trujillo T25,0.0,1.0,0.0,0.0
+Diana Trujillo T26,0.0,1.0,0.0,0.0
+Diana Trujillo T27,0.0,1.0,0.0,0.0
+Diana Trujillo T28,0.0,0.855,0.145,-0.296
+Diana Trujillo T29,0.0,1.0,0.0,0.0
+Diana Trujillo T30,0.0,1.0,0.0,0.0
+Diana Trujillo T31,0.194,0.806,0.0,0.34
+Diana Trujillo T32,0.0,1.0,0.0,0.0
+Diana Trujillo T33,0.118,0.882,0.0,0.34
+Diana Trujillo T34,0.0,1.0,0.0,0.0
+Diana Trujillo T35,0.0,1.0,0.0,0.0
+Diana Trujillo T36,0.0,1.0,0.0,0.0
+Diana Trujillo T37,0.0,1.0,0.0,0.0
+Diana Trujillo T38,0.0,1.0,0.0,0.0
+Diana Trujillo T39,0.0,1.0,0.0,0.0
+Diana Trujillo T40,0.0,1.0,0.0,0.0
+Diana Trujillo T41,0.0,1.0,0.0,0.0
+Diana Trujillo T42,0.0,1.0,0.0,0.0
+Diana Trujillo T43,0.0,0.885,0.115,-0.296
+Diana Trujillo T44,0.0,1.0,0.0,0.0
+Diana Trujillo T45,0.0,1.0,0.0,0.0
+Diana Trujillo T46,0.0,1.0,0.0,0.0
+Diana Trujillo T47,0.0,1.0,0.0,0.0
+Diana Trujillo T48,0.0,0.891,0.109,-0.296
+Diana Trujillo T49,0.0,0.82,0.18,-0.296
+Diana Trujillo T50,0.0,1.0,0.0,0.0
+Diana Trujillo T51,0.0,1.0,0.0,0.0
+Diana Trujillo T52,0.0,0.789,0.211,-0.4939
+Diana Trujillo T53,0.13,0.87,0.0,0.34
+Diana Trujillo T54,0.0,1.0,0.0,0.0
+Diana Trujillo T55,0.286,0.714,0.0,0.4215
+Mae Jemison T1,0.0,1.0,0.0,0.0
+Mae Jemison T2,0.232,0.768,0.0,0.5622
+Mae Jemison T3,0.0,1.0,0.0,0.0
+Mae Jemison T4,0.0,0.894,0.106,-0.2263
+Mae Jemison T5,0.27,0.73,0.0,0.3252
+Mae Jemison T6,0.088,0.707,0.205,-0.5093
+Mae Jemison T7,0.044,0.956,0.0,0.0772
+Mae Jemison T8,0.0,1.0,0.0,0.0
+Mae Jemison T9,0.0,0.817,0.183,-0.4215
+Mae Jemison T10,0.0,0.896,0.104,-0.296
+Mae Jemison T11,0.0,1.0,0.0,0.0
+Mae Jemison T12,0.0,0.845,0.155,-0.296
+Mae Jemison T13,0.0,1.0,0.0,0.0
+Mae Jemison T14,0.0,1.0,0.0,0.0
+Mae Jemison T15,0.218,0.782,0.0,0.5622
+Mae Jemison T16,0.279,0.721,0.0,0.7351
+Mae Jemison T17,0.0,0.826,0.174,-0.2263
+Mae Jemison T18,0.241,0.759,0.0,0.6908
+Mae Jemison T19,0.172,0.828,0.0,0.3252
+Mae Jemison T20,0.218,0.782,0.0,0.5994
+Mae Jemison T21,0.27,0.73,0.0,0.3252
+Mae Jemison T22,0.176,0.824,0.0,0.4939
+Mae Jemison T23,0.282,0.718,0.0,0.7096
+Mae Jemison T24,0.0,1.0,0.0,0.0
+Mae Jemison T25,0.163,0.837,0.0,0.5719
+Mae Jemison T26,0.0,1.0,0.0,0.0
+Mae Jemison T27,0.163,0.837,0.0,0.5719
+Mae Jemison T28,0.226,0.774,0.0,0.5859
+Mae Jemison T29,0.0,1.0,0.0,0.0
+Mae Jemison T30,0.214,0.786,0.0,0.4588
+Mae Jemison T31,0.262,0.738,0.0,0.7964
+Mae Jemison T32,0.157,0.843,0.0,0.4215
+Mae Jemison T33,0.167,0.833,0.0,0.34
+Mae Jemison T34,0.0,1.0,0.0,0.0
+Mae Jemison T35,0.0,0.774,0.226,-0.4215
+Mae Jemison T36,0.0,0.703,0.297,-0.4215
+Mae Jemison T37,0.082,0.784,0.134,-0.34
+Mae Jemison T38,0.0,1.0,0.0,0.0
+Mae Jemison T39,0.183,0.817,0.0,0.5563
+Mae Jemison T40,0.0,0.817,0.183,-0.4215
+Mae Jemison T41,0.216,0.784,0.0,0.5562
+Mae Jemison T42,0.439,0.561,0.0,0.8225
+Mae Jemison T43,0.294,0.706,0.0,0.3252
+Mae Jemison T44,0.288,0.712,0.0,0.5622
+Mae Jemison T45,0.0,1.0,0.0,0.0
+Mae Jemison T46,0.06,0.82,0.12,-0.2732
+Mae Jemison T47,0.0,1.0,0.0,0.0
+Mae Jemison T48,0.0,1.0,0.0,0.0
+Mae Jemison T49,0.0,1.0,0.0,0.0
+Mae Jemison T50,0.254,0.746,0.0,0.6249
+Mae Jemison T51,0.0,1.0,0.0,0.0
+Mae Jemison T52,0.0,1.0,0.0,0.0
+Mae Jemison T53,0.469,0.531,0.0,0.8658
+Mae Jemison T54,0.457,0.543,0.0,0.8442
+Mae Jemison T55,0.144,0.856,0.0,0.4939
+Mae Jemison T56,0.0,1.0,0.0,0.0
+Mae Jemison T57,0.235,0.765,0.0,0.673
+Mae Jemison T58,0.317,0.683,0.0,0.7579
+Mae Jemison T59,0.0,1.0,0.0,0.0
+Mae Jemison T60,0.058,0.942,0.0,0.0258
+Mae Jemison T61,0.104,0.896,0.0,0.2732
+Mae Jemison T62,0.0,0.798,0.202,-0.4215
+Mae Jemison T63,0.0,1.0,0.0,0.0
+Mae Jemison T64,0.192,0.808,0.0,0.3252
+Mae Jemison T65,0.13,0.741,0.13,0.0
+Mae Jemison T66,0.0,0.863,0.137,-0.2263
+Mae Jemison T67,0.474,0.526,0.0,0.9371
+Mae Jemison T68,0.239,0.761,0.0,0.6588
+Mae Jemison T69,0.0,1.0,0.0,0.0
+Mae Jemison T70,0.0,1.0,0.0,0.0
+Mae Jemison T71,0.0,1.0,0.0,0.0
+Mae Jemison T72,0.0,0.571,0.429,-0.4588
+Mae Jemison T73,0.072,0.928,0.0,0.1027
+Mae Jemison T74,0.258,0.624,0.118,0.2838
+Mae Jemison T75,0.42,0.58,0.0,0.8038
+Mae Jemison T76,0.184,0.816,0.0,0.4019
+Mae Jemison T77,0.0,1.0,0.0,0.0
+Mae Jemison T78,0.0,1.0,0.0,0.0
+Mae Jemison T79,0.0,1.0,0.0,0.0
+Mae Jemison T80,0.0,1.0,0.0,0.0
+Mae Jemison T81,0.0,1.0,0.0,0.0
+Mae Jemison T82,0.048,0.952,0.0,0.0772
+Mae Jemison T83,0.0,1.0,0.0,0.0
+Mae Jemison T84,0.075,0.837,0.088,-0.0772
+Mae Jemison T85,0.27,0.73,0.0,0.3252
+Mae Jemison T86,0.0,1.0,0.0,0.0
+Mae Jemison T87,0.0,0.0,0.0,0.0
+Mae Jemison T88,0.469,0.531,0.0,0.8658
+Mae Jemison T89,0.0,0.815,0.185,-0.5927
+Mae Jemison T90,0.331,0.669,0.0,0.7125
+Mae Jemison T91,0.156,0.844,0.0,0.34
+Mae Jemison T92,0.218,0.782,0.0,0.5622
+Mae Jemison T93,0.0,1.0,0.0,0.0
+Grace Hopper T1,0.0,1.0,0.0,0.0
+Grace Hopper T2,0.435,0.565,0.0,0.7717
+Grace Hopper T3,0.28,0.5,0.22,0.1531
+Grace Hopper T4,0.167,0.833,0.0,0.4215
+Grace Hopper T5,0.0,0.911,0.089,-0.3291
+Grace Hopper T6,0.167,0.833,0.0,0.4215
+Grace Hopper T7,0.279,0.721,0.0,0.7003
+Grace Hopper T8,0.0,0.804,0.196,-0.5994
+Grace Hopper T9,0.157,0.843,0.0,0.4215
+Grace Hopper T10,0.167,0.833,0.0,0.4215
+Grace Hopper T11,0.435,0.565,0.0,0.7717
+Grace Hopper T12,0.177,0.823,0.0,0.4215
+Grace Hopper T13,0.0,0.825,0.175,-0.5574
+Grace Hopper T14,0.0,1.0,0.0,0.0
+Grace Hopper T15,0.0,1.0,0.0,0.0
+Grace Hopper T16,0.303,0.697,0.0,0.6858
+Grace Hopper T17,0.0,0.826,0.174,-0.5563
+Grace Hopper T18,0.149,0.851,0.0,0.4215
+Grace Hopper T19,0.0,1.0,0.0,0.0
+Grace Hopper T20,0.293,0.707,0.0,0.7003
+Grace Hopper T21,0.0,0.667,0.333,-0.4588
+Grace Hopper T22,0.359,0.641,0.0,0.4215
+Grace Hopper T23,0.177,0.823,0.0,0.4215
+Grace Hopper T24,0.157,0.843,0.0,0.4215
+Grace Hopper T25,0.189,0.811,0.0,0.4215
+Grace Hopper T26,0.399,0.601,0.0,0.8519
+Grace Hopper T27,0.167,0.833,0.0,0.4215
+Grace Hopper T28,0.0,1.0,0.0,0.0
+Grace Hopper T29,0.359,0.641,0.0,0.4215
+Grace Hopper T30,0.0,1.0,0.0,0.0
+Grace Hopper T31,0.113,0.887,0.0,0.4215
+Grace Hopper T32,0.266,0.734,0.0,0.5719
+Grace Hopper T33,0.317,0.683,0.0,0.7845
+Grace Hopper T34,0.318,0.682,0.0,0.4215
+Grace Hopper T35,0.362,0.638,0.0,0.6249
+Grace Hopper T36,0.359,0.641,0.0,0.4215
+Grace Hopper T37,0.0,1.0,0.0,0.0
+Grace Hopper T38,0.0,1.0,0.0,0.0
+Grace Hopper T39,0.288,0.712,0.0,0.827
+Grace Hopper T40,0.465,0.535,0.0,0.9169
+Grace Hopper T41,0.189,0.811,0.0,0.4215
+Grace Hopper T42,0.219,0.781,0.0,0.4215
+Grace Hopper T43,0.181,0.819,0.0,0.4753
+Grace Hopper T44,0.0,1.0,0.0,0.0
+Grace Hopper T45,0.22,0.538,0.242,-0.34
+Grace Hopper T46,0.149,0.851,0.0,0.4215
+Grace Hopper T47,0.098,0.902,0.0,0.2382
+Grace Hopper T48,0.266,0.734,0.0,0.7003
+Grace Hopper T49,0.167,0.833,0.0,0.4215
+Grace Hopper T50,0.526,0.474,0.0,0.9231
+Grace Hopper T51,0.288,0.712,0.0,0.6858
+Grace Hopper T52,0.197,0.803,0.0,0.5984
+Grace Hopper T53,0.242,0.758,0.0,0.5859
+Grace Hopper T54,0.0,1.0,0.0,0.0
+Grace Hopper T55,0.203,0.797,0.0,0.4215
+Grace Hopper T56,0.338,0.662,0.0,0.6249
+Grace Hopper T57,0.0,0.76,0.24,-0.6894
+Grace Hopper T58,0.157,0.843,0.0,0.4215
+Grace Hopper T59,0.353,0.647,0.0,0.5994
+Grace Hopper T60,0.818,0.182,0.0,0.8398
+Grace Hopper T61,0.123,0.877,0.0,0.4215
+Grace Hopper T62,0.177,0.823,0.0,0.4215
+Grace Hopper T63,0.132,0.708,0.16,-0.1513
+Grace Hopper T64,0.25,0.75,0.0,0.6124
+Grace Hopper T65,0.123,0.877,0.0,0.4215
+Grace Hopper T66,0.157,0.843,0.0,0.4215
+Grace Hopper T67,0.0,0.841,0.159,-0.5256
+Grace Hopper T68,0.203,0.797,0.0,0.4215
+Grace Hopper T69,0.219,0.781,0.0,0.4215
+Grace Hopper T70,0.0,1.0,0.0,0.0
+Grace Hopper T71,0.242,0.758,0.0,0.5859
+Grace Hopper T72,0.206,0.63,0.164,0.0
+Grace Hopper T73,0.867,0.133,0.0,0.7579
+Grace Hopper T74,0.171,0.829,0.0,0.5719
+Grace Hopper T75,0.0,0.879,0.121,-0.3252
+Grace Hopper T76,0.391,0.609,0.0,0.7717
+Grace Hopper T77,0.318,0.682,0.0,0.6808
+Grace Hopper T78,0.189,0.811,0.0,0.4215
+Grace Hopper T79,0.167,0.833,0.0,0.4215
+Grace Hopper T80,0.318,0.682,0.0,0.6808
+Grace Hopper T81,0.239,0.761,0.0,0.6858
+Grace Hopper T82,0.353,0.647,0.0,0.5994
+Grace Hopper T83,0.118,0.882,0.0,0.4215
+Grace Hopper T84,0.157,0.843,0.0,0.4215
+Grace Hopper T85,0.177,0.823,0.0,0.4215
+Grace Hopper T86,0.141,0.859,0.0,0.4215
+Grace Hopper T87,0.37,0.63,0.0,0.5719
+Grace Hopper T88,0.247,0.567,0.186,0.128
+Grace Hopper T89,0.336,0.664,0.0,0.7269
+Grace Hopper T90,0.336,0.664,0.0,0.7269
+Grace Hopper T91,0.336,0.664,0.0,0.7269
+Grace Hopper T92,0.336,0.664,0.0,0.7269
+Grace Hopper T93,0.336,0.664,0.0,0.7269
+Grace Hopper T94,0.336,0.664,0.0,0.7269
+Grace Hopper T95,0.336,0.664,0.0,0.7269
+Grace Hopper T96,0.336,0.664,0.0,0.7269
+Grace Hopper T97,0.336,0.664,0.0,0.7269
+Grace Hopper T98,0.336,0.664,0.0,0.7269
+Grace Hopper T99,0.336,0.664,0.0,0.7269
+Grace Hopper T100,0.336,0.664,0.0,0.7269
+Grace Hopper T101,0.336,0.664,0.0,0.7269
+Grace Hopper T102,0.336,0.664,0.0,0.7269
+Grace Hopper T103,0.336,0.664,0.0,0.7269
+Grace Hopper T104,0.336,0.664,0.0,0.7269
+Grace Hopper T105,0.336,0.664,0.0,0.7269
+Grace Hopper T106,0.336,0.664,0.0,0.7269
+Grace Hopper T107,0.336,0.664,0.0,0.7269
+Grace Hopper T108,0.336,0.664,0.0,0.7269
+Grace Hopper T109,0.336,0.664,0.0,0.7269
+Grace Hopper T110,0.336,0.664,0.0,0.7269
+Grace Hopper T111,0.286,0.714,0.0,0.4215
+Grace Hopper T112,0.317,0.683,0.0,0.6249
+Grace Hopper T113,0.124,0.876,0.0,0.34
+Grace Hopper T114,0.0,1.0,0.0,0.0
+Grace Hopper T115,0.142,0.66,0.198,-0.2732
+Grace Hopper T116,0.157,0.683,0.161,0.2263
+Grace Hopper T117,0.203,0.797,0.0,0.4215
+Grace Hopper T118,0.167,0.833,0.0,0.4215
+Grace Hopper T119,0.157,0.843,0.0,0.4215
+Grace Hopper T120,0.141,0.859,0.0,0.4215
+Grace Hopper T121,0.309,0.691,0.0,0.7003
+Grace Hopper T122,0.0,0.825,0.175,-0.5256
+Grace Hopper T123,0.298,0.702,0.0,0.6249
+Grace Hopper T124,0.167,0.833,0.0,0.296
+Grace Hopper T125,0.0,1.0,0.0,0.0
+Grace Hopper T126,0.407,0.593,0.0,0.8625
+clemmihai T1,0.0,1.0,0.0,0.0
+clemmihai T2,0.0,0.813,0.187,-0.4576
+clemmihai T3,0.146,0.764,0.089,0.2263
+clemmihai T4,0.0,0.926,0.074,-0.0516
+clemmihai T5,0.556,0.444,0.0,0.3612
+clemmihai T6,0.672,0.328,0.0,0.6249
+clemmihai T7,0.0,0.755,0.245,-0.5448
+clemmihai T8,0.313,0.602,0.084,0.5859
+clemmihai T9,0.0,1.0,0.0,0.0
+clemmihai T10,0.214,0.786,0.0,0.4588
+clemmihai T11,0.0,1.0,0.0,0.0
+clemmihai T12,0.255,0.547,0.198,0.3109
+clemmihai T13,0.257,0.743,0.0,0.6369
+clemmihai T14,0.0,1.0,0.0,0.0
+clemmihai T15,0.0,1.0,0.0,0.0
+clemmihai T16,0.172,0.828,0.0,0.4019
+clemmihai T17,0.181,0.819,0.0,0.1406
+clemmihai T18,0.0,0.833,0.167,-0.4939
+clemmihai T19,0.0,1.0,0.0,0.0
+clemmihai T20,0.0,1.0,0.0,0.0
+clemmihai T21,0.0,1.0,0.0,0.0
+clemmihai T22,0.389,0.611,0.0,0.8516
+clemmihai T23,0.0,1.0,0.0,0.0
+clemmihai T24,0.0,1.0,0.0,0.0
+clemmihai T25,0.452,0.548,0.0,0.7644
+clemmihai T26,0.0,1.0,0.0,0.0
+clemmihai T27,0.599,0.401,0.0,0.4574
+clemmihai T28,0.0,1.0,0.0,0.0
+clemmihai T29,0.315,0.685,0.0,0.3182
+clemmihai T30,0.0,1.0,0.0,0.0
+clemmihai T31,0.225,0.775,0.0,0.4404
+clemmihai T32,0.0,1.0,0.0,0.0
+clemmihai T33,0.782,0.218,0.0,0.5562
+clemmihai T34,0.0,1.0,0.0,0.0
+clemmihai T35,0.482,0.518,0.0,0.4199
+clemmihai T36,0.0,1.0,0.0,0.0
+clemmihai T37,0.192,0.734,0.074,0.5239
+clemmihai T38,0.42,0.58,0.0,0.4404
+clemmihai T39,0.436,0.564,0.0,0.8172
+clemmihai T40,0.0,1.0,0.0,0.0
+clemmihai T41,0.124,0.876,0.0,0.34
+clemmihai T42,0.0,1.0,0.0,0.0
+clemmihai T43,0.0,0.682,0.318,-0.1027
+clemmihai T44,0.135,0.759,0.105,0.1779
+clemmihai T45,0.1,0.9,0.0,0.25
+clemmihai T46,0.124,0.876,0.0,0.3102
+clemmihai T47,0.196,0.804,0.0,0.5267
+clemmihai T48,0.0,1.0,0.0,0.0
+clemmihai T49,0.143,0.857,0.0,0.3612
+clemmihai T50,0.118,0.882,0.0,0.34
+clemmihai T51,0.0,1.0,0.0,0.0
+clemmihai T52,0.0,1.0,0.0,0.0
+clemmihai T53,0.0,1.0,0.0,0.0
+clemmihai T54,0.117,0.595,0.288,-0.6486
+clemmihai T55,0.0,0.682,0.318,-0.1027
+clemmihai T56,0.09,0.745,0.165,-0.1027
+clemmihai T57,0.396,0.604,0.0,0.7089
+clemmihai T58,0.0,1.0,0.0,0.0
+clemmihai T59,0.0,0.577,0.423,-0.296
+clemmihai T60,0.0,1.0,0.0,0.0
+clemmihai T61,0.0,1.0,0.0,0.0
+clemmihai T62,0.0,1.0,0.0,0.0
+clemmihai T63,0.126,0.674,0.2,-0.1675
+clemmihai T64,0.0,1.0,0.0,0.0
+clemmihai T65,0.0,0.351,0.649,-0.5719

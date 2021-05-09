@@ -66,18 +66,21 @@ class TwitterClient(object):
             tweet = tweet[2:]
         return tweet
 
-    def __get_tweets(self, query, count=20):
+    def __get_tweets(self, query, count=20, filter_duplicates=True):
         """
         fetch and parse tweets
 
         query : String for search query (keyword)
 
-        count : batch size
+        count : batch size - Guaranteed this amount, may contain duplicates no matter what.
+
+        filter_duplicates=True, Will FILTER duplicates, but will not guarantee uniqueness.
+
+        Returns list of dicts, one for each tweet.
         """
 
         tweets = []
         final = count  # to guarantee we get the proper amount of unique tweets.
-        filter_duplicates = True  # Filters out duplicates
         previous = 0  # will never be equal to final at start
         failed_to_retrieve_unique_tweet = 0  # if it fails to get a unique tweet 5 times, we will accept duplicates
         try:
@@ -103,17 +106,47 @@ class TwitterClient(object):
                     if filter_duplicates:
                         if final > 0:
                             if previous == final:
+                                print("Looks like there were some duplicates, {} , {} prev more to go!".format(final, previous))
                                 failed_to_retrieve_unique_tweet += 1
                                 if failed_to_retrieve_unique_tweet > 8:
                                     print("Unable to get more unique tweets, accepting duplicates now")
                                     filter_duplicates = False
                             else:
                                 failed_to_retrieve_unique_tweet = 0
-                            print("Looks like there were some duplicates, {} , {} prev more to go!".format(final, previous))
                             previous = final
+        except tweepy.TweepError as e:
+            print(str(e))
+        return list(tweets)
 
+    def __get_unique_tweets(self, query, count=20):
+        """
+        Returns a list of dict of UNIQUE tweets. May not be specified count in size.
 
+        Will attempt to get as many as reasonably possible without consuming the rate limit excessively
+        """
+        tweets = []
 
+        current = 0
+        previous = 0
+        try:
+            print(str(count) + " sampling")
+            while current < count:
+                bat = [tweet for tweet in tweepy.Cursor(
+                    self.api.search, q=query + " -filter:retweets", include_entities=True, leng="en").items(count - current)]
+                for tweet in bat:
+                    parsed_tweet = dict()
+                    parsed_tweet['sentiment'] = self.__get_sentiment(tweet)
+                    parsed_tweet['tweet'] = tweet.text
+                    if parsed_tweet not in tweets:
+                        tweets.append(parsed_tweet)
+                        current += 1
+                        if current == count:
+                            break
+                if current == previous:
+                    # failed to get more on this run
+                    break
+                previous = current
+            print("Received {} out of requested {} tweets.".format(current, count))
         except tweepy.TweepError as e:
             print(str(e))
         return list(tweets)
@@ -127,11 +160,14 @@ class TwitterClient(object):
         tweet.text = self.__clean_tweet(tweet.text)
         return SentimentIntensityAnalyzer().polarity_scores(tweet.text)
 
-    def analyze_keywords(self, size, filename=None, **kwargs):
+    def analyze_keywords(self, size, filename=None, duplicate_filter=1, **kwargs):
         """
             size : batch size for each keyword
 
-            filename : optional csv file to save to
+            filename : optional csv file to save to (default None)
+            Files it saves to will be under "data/filename+category", a file for each category given under kwargs.
+
+            duplicate_filter: 1 for attempt to filter, 2 for strict filter, anything else will not filter(default 1)
 
             This code is designed to analyze tweets on a masculine/feminine basis, but
             you may specify your own type. These will be the names of the labels.
@@ -140,8 +176,10 @@ class TwitterClient(object):
             
             NOTE: Keywords categories must be equal number.
 
-            Retrieves batch size unique tweets for each keyword, performs a sentiment analysis,
+            Retrieves batch size for each keyword, performs a sentiment analysis,
             and returns a pandas dataframe indexed by KEYWORD + T[count], 1 <= count <= size
+
+            WARNING: duplicate_filter=2 DOES NOT guarantee receiving the specified number of tweets.
         """
 
         if len(kwargs) == 0:
@@ -150,7 +188,14 @@ class TwitterClient(object):
         for category in kwargs.keys():
             df = pd.DataFrame()
             for keyword in kwargs[category]:
-                tweet_data = self.__get_tweets(query=keyword, count=size)
+
+                if duplicate_filter == 1:
+                    tweet_data = self.__get_tweets(query=keyword, count=size)
+                if duplicate_filter == 2:
+                    tweet_data = self.__get_unique_tweets(query=keyword, count=size)
+                else:
+                    tweet_data = self.__get_tweets(query=keyword, count=size, filter_duplicates=False)
+
                 count = 0
                 for tweet in tweet_data:
                     count += 1
@@ -160,6 +205,8 @@ class TwitterClient(object):
                         [[trial, sentiment['pos'], sentiment['neu'], sentiment['neg'], sentiment['compound']]],
                         columns=['trial', 'Pos.', 'Neu.', 'Neg.', 'Summary'])
                     df = df.append(new_rec, ignore_index=True)  # ignoring index allows count to keep going
+                    del new_rec
+
             self.categories[category] = df
 
         if filename is not None:
@@ -193,11 +240,16 @@ class TwitterClient(object):
 def main():
     client = TwitterClient()
 
-    client.analyze_keywords(150, filename="set3",
-                            masculine=['Sergey Brin', 'Bill Gates', 'Adam Steltzner', 'Michio Kaku', 'Neil deGrasse Tyson'],
-                            feminine=['Susan Kare', 'Melinda Gates', 'Diana Trujillo', 'Mae Jemison', 'Grace Hopper'])
-    data = client.load_existing_observation_set("set3", 'masculine')
-    data2 = client.load_existing_observation_set("set3", 'feminine')
+    client.analyze_keywords(150, filename="set5",
+                            masculine=['Sergey Brin', 'Bill Gates', 'Adam Steltzner', 'Michio Kaku', 'Neil deGrasse Tyson',
+                                       'hellomayuko'],
+                            feminine=['Susan Kare', 'Melinda Gates', 'Diana Trujillo', 'Mae Jemison', 'Grace Hopper',
+                                      'clemmihai'],
+                            duplicate_filter=2)
+                            # There are a couple twitter handles there at the end for some social media CS influencers
+                            # this is one trial of many, and this one will be stricly filtered
+    data = client.load_existing_observation_set("set5", 'masculine')
+    data2 = client.load_existing_observation_set("set5", 'feminine')
     print(data)
     print("-----------------------------------------------------------")
     print(data2)
