@@ -3,3 +3,5 @@ Lib/
 Scripts/
 *.cfg
 .idea/
+your_keys.ini
+*/__pycache__/*

@@ -150,7 +150,6 @@ class TwitterClient(object):
         for category in kwargs.keys():
             df = pd.DataFrame()
             for keyword in kwargs[category]:
-                print(keyword)
                 tweet_data = self.__get_tweets(query=keyword, count=size)
                 count = 0
                 for tweet in tweet_data:
@@ -164,8 +163,10 @@ class TwitterClient(object):
             self.categories[category] = df
 
         if filename is not None:
+            dir = os.path.dirname(os.path.realpath(__file__))
+            os.chdir(dir)
             for frame in self.categories.keys():
-                self.categories[frame].to_csv('data/' + filename.strip() + frame.strip() + '.csv',
+                self.categories[frame].to_csv('../data/' + filename.strip() + frame.strip() + '.csv',
                                               columns=['trial', 'Pos.', 'Neu.', 'Neg.', 'Summary'],
                                               index=False)
 
@@ -192,11 +193,11 @@ class TwitterClient(object):
 def main():
     client = TwitterClient()
 
-    client.analyze_keywords(150, filename="set2",
+    client.analyze_keywords(150, filename="set3",
                             masculine=['Sergey Brin', 'Bill Gates', 'Adam Steltzner', 'Michio Kaku', 'Neil deGrasse Tyson'],
                             feminine=['Susan Kare', 'Melinda Gates', 'Diana Trujillo', 'Mae Jemison', 'Grace Hopper'])
-    data = client.load_existing_observation_set("set2", 'masculine')
-    data2 = client.load_existing_observation_set("set2", 'feminine')
+    data = client.load_existing_observation_set("set3", 'masculine')
+    data2 = client.load_existing_observation_set("set3", 'feminine')
     print(data)
     print("-----------------------------------------------------------")
     print(data2)
