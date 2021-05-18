@@ -10,6 +10,7 @@ The above copyright notice and this permission notice shall be included in all c
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 """
+import time
 import os
 import configparser
 import tweepy
@@ -186,7 +187,7 @@ class TwitterClient(object):
             raise (InvalidDataException("No keywords passed into analyze_keyword"))
 
         for category in kwargs.keys():
-            df = pd.DataFrame()
+            recdict = dict()
             for keyword in kwargs[category]:
 
                 if duplicate_filter == 1:
@@ -195,27 +196,24 @@ class TwitterClient(object):
                     tweet_data = self.__get_unique_tweets(query=keyword, count=size)
                 else:
                     tweet_data = self.__get_tweets(query=keyword, count=size, filter_duplicates=False)
-
+                start = time.perf_counter_ns()
                 count = 0
                 for tweet in tweet_data:
                     count += 1
                     sentiment = tweet['sentiment']
                     trial = (str(keyword) + f' T{count % size}')  # trial label, mod size for trial number for each word
-                    new_rec = pd.DataFrame(
-                        [[trial, sentiment['pos'], sentiment['neu'], sentiment['neg'], sentiment['compound']]],
-                        columns=['trial', 'Pos.', 'Neu.', 'Neg.', 'Summary'])
-                    df = df.append(new_rec, ignore_index=True)  # ignoring index allows count to keep going
-                    del new_rec
-
+                    recdict[trial] = [sentiment['pos'], sentiment['neu'], sentiment['neg'], sentiment['compound']]
+                    
+            df = pd.DataFrame.from_dict(recdict, orient='index')
             self.categories[category] = df
+            end = time.perf_counter_ns()
+            print(end-start + "nanoseconds to append data")
 
         if filename is not None:
             dir = os.path.dirname(os.path.realpath(__file__))
             os.chdir(dir)
             for frame in self.categories.keys():
-                self.categories[frame].to_csv('../data/' + filename.strip() + frame.strip() + '.csv',
-                                              columns=['trial', 'Pos.', 'Neu.', 'Neg.', 'Summary'],
-                                              index=False)
+                self.categories[frame].to_csv('../data/' + filename.strip() + frame.strip() + '.csv')
 
         return self.categories
 
@@ -240,16 +238,14 @@ class TwitterClient(object):
 def main():
     client = TwitterClient()
 
-    client.analyze_keywords(150, filename="set5",
-                            masculine=['Sergey Brin', 'Bill Gates', 'Adam Steltzner', 'Michio Kaku', 'Neil deGrasse Tyson',
-                                       'hellomayuko'],
-                            feminine=['Susan Kare', 'Melinda Gates', 'Diana Trujillo', 'Mae Jemison', 'Grace Hopper',
-                                      'clemmihai'],
+    client.analyze_keywords(250, filename="set6",
+                            masculine=['masculinity', 'Masculinity'],
+                            feminine=['feminism', 'Feminism'],
                             duplicate_filter=2)
                             # There are a couple twitter handles there at the end for some social media CS influencers
                             # this is one trial of many, and this one will be stricly filtered
-    data = client.load_existing_observation_set("set5", 'masculine')
-    data2 = client.load_existing_observation_set("set5", 'feminine')
+    data = client.load_existing_observation_set("set6", 'masculine')
+    data2 = client.load_existing_observation_set("set6", 'feminine')
     print(data)
     print("-----------------------------------------------------------")
     print(data2)

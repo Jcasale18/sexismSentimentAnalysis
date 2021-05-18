@@ -34,8 +34,8 @@ def make_histo(label, data_arrays, custom_bins=np.linspace(-1, 1, 21)):
 
 
 def main():
-    labelsm, datam = parse_data(TwitterAnalysis.TwitterClient.load_existing_observation_set("set5", "masculine"))
-    labelsf, dataf = parse_data(TwitterAnalysis.TwitterClient.load_existing_observation_set("set5", "feminine"))
+    labelsm, datam = parse_data(TwitterAnalysis.TwitterClient.load_existing_observation_set("set6", "masculine"))
+    labelsf, dataf = parse_data(TwitterAnalysis.TwitterClient.load_existing_observation_set("set6", "feminine"))
     print(dataf)
     f_data = [[d[index] for index in range(len(dataf[0]))] for d in dataf]
     m_data = [[d[index] for index in range(len(datam[0]))] for d in datam]
@@ -44,16 +44,16 @@ def main():
 
     # I'm filtering out some of the neutral data.
     # I've already gotten graphs including it, and decided that we could visualize the shift better without it
-    aggregate_data = data_cleaner.remove_bloated_range(aggregate_data, -0.08, 0.08)
+    aggregate_data = data_cleaner.remove_bloated_range(aggregate_data, -0.01, 0.01)
     aggregate_data = data_cleaner.normalize_size(aggregate_data)
 
 
     # Since I've filtered out some data, I'm going to close the gap as so:
-    cust_bins = np.linspace(-1, 1, 21)
-    cust_bins = cust_bins[(cust_bins < -0.08) | (cust_bins > 0.08)]
+    cust_bins = np.linspace(-1, 1, 24)
+    cust_bins = cust_bins[(cust_bins < -0.04) | (cust_bins > 0.04)]
     make_histo('M', aggregate_data[1], custom_bins=cust_bins)
     make_histo('F', aggregate_data[0], custom_bins=cust_bins)
-    plt.title("Sentiment Polarity in Keywords Excluding -0.08 - 0.08")
+    plt.title("Sentiment Polarity in Keywords")
     plt.show()
 
 
